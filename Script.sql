@@ -74,4 +74,3 @@ select rs.id, role_title, monthly_salary from roles_salary rs
 right join salary s on id_salary = s.id
 left join roles r on id_role = r.id;
 
-
