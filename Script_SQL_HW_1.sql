@@ -229,5 +229,5 @@ values	(17, 8),
 		(29, 7);
 
 
-	
 select * from roles_employee;
+
