@@ -87,4 +87,4 @@ group by ram
 
 
 select count(ram)  from phones_samsung ps
-where ram >= 8
+where ram >= 6
