@@ -216,6 +216,7 @@ from employees e join roles_employee re on e.id = re.employee_id
 where s.monthly_salary < 2300
 order by s.monthly_salary 
 ;
+--32
 select employee_name, role_name, monthly_salary
 from employees e join roles_employee re on e.id = re.employee_id 
 	join roles r on re.role_id = r.id
